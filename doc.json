@@ -163,6 +163,20 @@
       },
       "expirationSeconds": 900
     },
+    "roster": {
+      "link": "https://members-ng.iracing.com/data/league/roster",
+      "parameters": {
+        "league_id": {
+          "type": "number",
+          "required": true
+        },
+        "include_licenses": {
+          "type": "boolean",
+          "note": "For faster responses, only request when necessary."
+        }
+      },
+      "expirationSeconds": 900
+    },
     "seasons": {
       "link": "https://members-ng.iracing.com/data/league/seasons",
       "parameters": {
