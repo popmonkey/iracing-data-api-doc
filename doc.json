@@ -661,12 +661,13 @@
           "type": "boolean"
         },
         "season_year": {
-          "type": "number"
+          "type": "number",
+          "note": "To look up past seasons use both a season_year and season_quarter.  Without both, the active seasons are returned."
         },
         "season_quarter": {
-          "type": "number"
-        },
-        "note": {}
+          "type": "number",
+          "note": "To look up past seasons use both a season_year and season_quarter.  Without both, the active seasons are returned."
+        }
       },
       "expirationSeconds": 900
     },
