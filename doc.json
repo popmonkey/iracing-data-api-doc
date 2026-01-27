@@ -262,6 +262,11 @@
       "link": "https://members-ng.iracing.com/data/lookup/countries",
       "expirationSeconds": 900
     },
+    "current_season": {
+      "link": "https://members-ng.iracing.com/data/lookup/current_season",
+      "note": "Changes at midnight UTC on a Tuesday in March, June, September, and December.",
+      "expirationSeconds": 900
+    },
     "drivers": {
       "link": "https://members-ng.iracing.com/data/lookup/drivers",
       "parameters": {
