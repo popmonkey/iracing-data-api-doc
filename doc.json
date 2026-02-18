@@ -92,7 +92,7 @@
           "note": "If set, return only sessions using this car or track package ID."
         }
       },
-      "expirationSeconds": 900
+      "expirationSeconds": 60
     },
     "directory": {
       "link": "https://members-ng.iracing.com/data/league/directory",
@@ -254,7 +254,7 @@
           "note": "If true include only sessions for which results are available."
         }
       },
-      "expirationSeconds": 900
+      "expirationSeconds": 60
     }
   },
   "lookup": {
